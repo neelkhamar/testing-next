@@ -4,7 +4,7 @@ export default function Home() {
   console.log(
     "Environement Variables",
     process.env.NEXT_PUBLIC_VERCEL_Environment,
-    process.env.VERCEL_ENV
+    process.env.NEXT_PUBLIC_ENVIRONMENT
   );
   return <div className={styles.container}></div>;
 }
