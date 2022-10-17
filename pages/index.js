@@ -3,7 +3,7 @@ import Image from "next/image";
 import styles from "../styles/Home.module.css";
 
 export default function Home() {
-  console.log(process.env);
+  console.log("Environement Variables", process.env);
   return (
     <div className={styles.container}>
       <Head>
